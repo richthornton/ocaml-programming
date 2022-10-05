@@ -4,6 +4,13 @@ let rec fib n =
   else fib (n -1) + fib (n - 2)
 ;;
 
+let rec fib2 =
+  function
+  | 1 -> 1
+  | 2 -> 1
+  | n -> fib (n -1) + fib (n - 2)
+;;
+
 assert (fib 1 = 1);;
 assert (fib 2 = 1);;
 assert (fib 3 = 2);;
