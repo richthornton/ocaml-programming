@@ -1,0 +1,10 @@
+(** @canonical Dune__exe.Library *)
+module Library = Dune__exe__Library
+
+
+(** @canonical Dune__exe.Product *)
+module Product = Dune__exe__Product
+
+
+(** @canonical Dune__exe.Test *)
+module Test = Dune__exe__Test
